@@ -13,7 +13,7 @@ import com.test1.pages.HomePage;
 public class HomePageTests extends TestBase {
 	
 
-	@Test
+	@Test(priority =1)
 	public void testPageTitle()
 	{
 		String actualTitle = homePG.getTitle();
@@ -23,6 +23,12 @@ public class HomePageTests extends TestBase {
 		Assert.assertEquals(actualTitle, 
 				"ABSoft Trainings – E-Commerce test web site | Home Page_Fail",
 				"Title is not correct");
+	}
+	
+	//@Test
+	public void newTest()
+	{
+		
 	}
 
 }
