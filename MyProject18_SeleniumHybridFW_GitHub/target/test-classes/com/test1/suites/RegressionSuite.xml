@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RegressionSuite" >
+    <test name="Home Page Module" > <!-- You can have multiple test(module/feature) nodes in a suite -->
+    <classes>
+       <class name="com.test1.tests.HomePageTests" /> 
+       <!-- You can have multiple class nodes in a test -->
+       <!-- Just give class name and no .java is required like "com.test1.tests.MyAccountPageTests" -->
+    </classes>
+  </test>
+      <test name="Login Module" > <!-- You can have multiple test(module/feature) nodes in a suite -->
+    <classes>
+       <class name="com.test1.tests.MyAccountPageTests" /> 
+       <!-- You can have multiple class nodes in a test -->
+       <!-- Just give class name and no .java is required like "com.test1.tests.MyAccountPageTests" -->
+    </classes>
+  </test>
+</suite>

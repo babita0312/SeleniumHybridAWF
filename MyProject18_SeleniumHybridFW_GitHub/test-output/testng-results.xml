@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39534" started-at="2018-12-12T14:49:06Z" finished-at="2018-12-12T14:49:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39534" started-at="2018-12-12T14:49:06Z" finished-at="2018-12-12T14:49:45Z">
+      <class name="com.test1.tests.HomePageTests">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.test1.tests.HomePageTests@59ec2012]" name="beforeSuite" is-config="true" duration-ms="114" started-at="2018-12-12T20:19:06Z" finished-at="2018-12-12T20:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="testSetUp(java.lang.reflect.Method)[pri:0, instance:com.test1.tests.HomePageTests@59ec2012]" name="testSetUp" is-config="true" duration-ms="36674" started-at="2018-12-12T20:19:06Z" finished-at="2018-12-12T20:19:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test1.tests.HomePageTests.testPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="testPageTitle()[pri:0, instance:com.test1.tests.HomePageTests@59ec2012]" name="testPageTitle" duration-ms="27" started-at="2018-12-12T20:19:42Z" finished-at="2018-12-12T20:19:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitle -->
+        <test-method status="PASS" signature="testTearDown(java.lang.reflect.Method)[pri:0, instance:com.test1.tests.HomePageTests@59ec2012]" name="testTearDown" is-config="true" duration-ms="2800" started-at="2018-12-12T20:19:43Z" finished-at="2018-12-12T20:19:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test1.tests.HomePageTests.testPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+      </class> <!-- com.test1.tests.HomePageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

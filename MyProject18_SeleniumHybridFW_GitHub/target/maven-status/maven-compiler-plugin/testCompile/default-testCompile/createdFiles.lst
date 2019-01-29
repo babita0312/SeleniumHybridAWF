@@ -1,0 +1,7 @@
+com\test1\tests\HomePageTests.class
+com\test1\tests\TestBase.class
+com\test1\tests\ShopPageTests.class
+com\test1\listeners\ExtentTestNGITestListener.class
+com\test1\tests\MyAccountPageTests.class
+com\test1\listeners\ExtentTestNGIReporterListener.class
+com\test1\tests\SampleExtentReport.class
